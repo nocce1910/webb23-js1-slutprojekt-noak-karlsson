@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Välj typsnitt för sidan */
+    color: white; /* Sätt textfärg till vit */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black; /* Lägg till en svart bakgrundsfärg på container */
+}
+
+h1, h2 {
+    text-align: center; /* Centrera rubrikarna */
+}
+
+form {
+    margin-bottom: 20px; /* Lägg till marginal under formuläret */
+}
+
+input, select, button {
+    margin-right: 10px; /* Lägg till marginal till höger för inmatningsfälten */
+}
+
+#error-message {
+    color: red; /* Sätt textfärg till röd för felmeddelanden */
+    text-align: center; /* Centrera felmeddelandetexten */
+    display: none; /* Göm felmeddelandekontainern initialt */
+}
+
+#current-icon {
+    width: 50px;
+    height: 50px; /* Sätt storlek på det nuvarande väderikonet */
+}
+
+.forecast {
+    display: flex; /* Använd flexbox för att justera prognoserna */
+    align-items: center; /* Centrera prognoserna vertikalt */
+    margin-bottom: 10px; /* Lägg till marginal under varje prognos */
+}
+
+.forecast img {
+    width: 30px;
+    height: 30px; /* Sätt storlek på väderikonerna i prognoserna */
+    margin-right: 10px; /* Lägg till marginal till höger för väderikonerna */
+}
